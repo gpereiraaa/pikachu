@@ -48,8 +48,10 @@ main{
 }
 
 .text{
+    /*
     height: 548px;
-    width: 1440px;
+    width: 1440px;*/
+    background-size: cover;
     position: absolute;
     z-index: -1;
 }
@@ -104,12 +106,15 @@ footer span{
         width: 100%;
     }
     .text{
+        /*
         padding: 19px;
         width: 100%;
         height: 100%;
+        margin-top: -350px;
+        */
         justify-content: center;
         align-items: center;
-        margin-top: -350px;
+        
     }
     .elementos{
         flex-direction: column;
